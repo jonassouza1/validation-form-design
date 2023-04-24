@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('../src/imagens/bg-repeat.jpg');
+    background-image: url('../imagens/bg-repeat.jpg');
     background-repeat: repeat-x;
     background-size: contain;
     font-family: 'Roboto', sans-serif;
