@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>projeto formulario</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>FICOU COM DÚVIDA? <br>
+            NOS MANDE UMA MENSAGEM!
+        </h1>
+        <p>caso tenha ficado com qualquer dúvida
+            basta nos mandar uma mensagem e
+            entraremos em contato em menos de 24h.</p>
+
+    </div>
+    <form class="formulario">
+        <input class="conteudo" type="text" placeholder="Nome completo *">
+        <label class="aviso"></label>
+        <input class="conteudo" type="email" placeholder="Email *">
+        <label class="aviso"></label>
+
+        <input class="conteudo" type="tel" placeholder="Telefone *">
+        <label for=""><label class="aviso"></label>
+
+            <textarea class="conteudo" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+            <label class="aviso"></label>
+            <span>*campos obrigatórios</span>
+            <br><br>
+            <button type="button" class="botao" id="btm">enviar</button>
+    </form>
+
+    <script src="./src/javascript/script.js"></script>
+</body>
+
+</html>
