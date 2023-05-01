@@ -37,12 +37,15 @@ body {
     height: 36px;
     width: 298px;
     padding: 9px 11px;
+    margin-top: 10px;
 }
 
 .formulario textarea {
     width: 298px;
     height: 100px;
     padding: 9px 11px;
+    margin-top: 10px;
+    resize: none;
 }
 
 .formulario .botao {
@@ -72,8 +75,11 @@ p {
 .formulario .aviso {
     color: #F52E2E;
     font-size: 8px;
-    height: 15px;
     display: block;
+}
+label{
+    display: none;
+    
 }
 
 .formulario .bordaVerde {
